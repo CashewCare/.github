@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" role="img" aria-labelledby="t d">
+  <title id="t">CashewCare</title>
+  <desc id="d">Caju com castanha dentro de uma moldura de visão computacional.</desc>
+  <defs>
+    <linearGradient id="fruit" x1="0" y1="0" x2="0.35" y2="1">
+      <stop offset="0" stop-color="#EC4C36"/>
+      <stop offset="0.7" stop-color="#F0603A"/>
+      <stop offset="1" stop-color="#F58B3D"/>
+    </linearGradient>
+  </defs>
+
+  <!-- moldura de visão computacional -->
+  <g fill="none" stroke="#006F47" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M22 62V34a12 12 0 0 1 12-12h28"/>
+    <path d="M194 22h28a12 12 0 0 1 12 12v28"/>
+    <path d="M234 194v28a12 12 0 0 1-12 12h-28"/>
+    <path d="M62 234H34a12 12 0 0 1-12-12v-28"/>
+  </g>
+
+  <g transform="translate(0 4)">
+    <!-- castanha (atrás do fruto) -->
+    <g transform="translate(0 -6)"><path d="M116 194C140 186 174 198 173 222C172 240 152 248 138 238C147 231 147 222 137 216C128 211 118 206 116 194Z" fill="#6E6B3A"/>
+    <path d="M140 201C152 202 162 210 163 222" fill="none" stroke="#A8A261" stroke-width="4" stroke-linecap="round"/></g>
+
+    <!-- fruto -->
+    <g transform="translate(128 120) scale(.9) translate(-128 -120)"><path d="M128 36C150 36 162 54 168 76C178 104 196 122 192 156C188 188 160 206 128 206C96 206 68 188 64 156C60 122 78 104 88 76C94 54 106 36 128 36Z" fill="url(#fruit)"/>
+    <!-- brilho -->
+    <path d="M92 108C98 92 104 78 112 66" fill="none" stroke="#FFFFFF" stroke-opacity=".45" stroke-width="7" stroke-linecap="round"/>
+    <!-- cálice na base -->
+    <ellipse cx="128" cy="204" rx="22" ry="6" fill="#C93A27"/>
+
+    <!-- pedúnculo e folha -->
+    <path d="M128 38C128 28 132 22 139 17" fill="none" stroke="#006F47" stroke-width="6" stroke-linecap="round"/>
+    <path d="M136 24C148 8 170 9 178 18C170 33 148 35 136 24Z" fill="#006F47"/>
+    <path d="M142 24C152 18 162 16 170 18" fill="none" stroke="#FED8A7" stroke-width="2.5" stroke-linecap="round" opacity=".7"/></g>
+  </g>
+</svg>

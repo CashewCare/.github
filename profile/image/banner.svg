@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 640" width="1280" height="640" role="img" aria-labelledby="bannerTitle bannerDesc">
+  <title id="bannerTitle">CashewCare</title>
+  <desc id="bannerDesc">Visão computacional a serviço da cajucultura do Nordeste.</desc>
+  <defs>
+    <linearGradient id="fruit" x1="0" y1="0" x2="0.35" y2="1">
+      <stop offset="0" stop-color="#EC4C36"/>
+      <stop offset="0.7" stop-color="#F0603A"/>
+      <stop offset="1" stop-color="#F58B3D"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1280" height="640" fill="#006F47"/>
+
+  <g fill="none" stroke="#FED8A7" stroke-width="1" opacity="0.18">
+    <circle cx="1000" cy="320" r="140"/>
+    <circle cx="1000" cy="320" r="200"/>
+    <circle cx="1000" cy="320" r="260"/>
+    <circle cx="1000" cy="320" r="320"/>
+    <circle cx="1000" cy="320" r="380"/>
+    <circle cx="1000" cy="320" r="440"/>
+    <circle cx="1000" cy="320" r="500"/>
+  </g>
+
+  <!-- disco creme que faz o ícone "saltar" do fundo -->
+  <circle cx="1000" cy="320" r="170" fill="#FFFCF9"/>
+
+  <!-- ícone CashewCare (256x256 escalado 1.2x e centrado em 1000,320) -->
+  <g transform="translate(846.4 166.4) scale(1.2)">
+    <g fill="none" stroke="#006F47" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M22 62V34a12 12 0 0 1 12-12h28"/>
+      <path d="M194 22h28a12 12 0 0 1 12 12v28"/>
+      <path d="M234 194v28a12 12 0 0 1-12 12h-28"/>
+      <path d="M62 234H34a12 12 0 0 1-12-12v-28"/>
+    </g>
+    <g transform="translate(0 4)">
+      <g transform="translate(0 -6)"><path d="M116 194C140 186 174 198 173 222C172 240 152 248 138 238C147 231 147 222 137 216C128 211 118 206 116 194Z" fill="#6E6B3A"/>
+      <path d="M140 201C152 202 162 210 163 222" fill="none" stroke="#A8A261" stroke-width="4" stroke-linecap="round"/></g>
+      <g transform="translate(128 120) scale(.9) translate(-128 -120)"><path d="M128 36C150 36 162 54 168 76C178 104 196 122 192 156C188 188 160 206 128 206C96 206 68 188 64 156C60 122 78 104 88 76C94 54 106 36 128 36Z" fill="url(#fruit)"/>
+      <path d="M92 108C98 92 104 78 112 66" fill="none" stroke="#FFFFFF" stroke-opacity=".45" stroke-width="7" stroke-linecap="round"/>
+      <ellipse cx="128" cy="204" rx="22" ry="6" fill="#C93A27"/>
+      <path d="M128 38C128 28 132 22 139 17" fill="none" stroke="#006F47" stroke-width="6" stroke-linecap="round"/>
+      <path d="M136 24C148 8 170 9 178 18C170 33 148 35 136 24Z" fill="#006F47"/>
+      <path d="M142 24C152 18 162 16 170 18" fill="none" stroke="#FED8A7" stroke-width="2.5" stroke-linecap="round" opacity=".7"/></g>
+    </g>
+  </g>
+
+  <g font-family="'Plus Jakarta Sans','Inter',system-ui,sans-serif">
+    <text x="80" y="240" font-size="96" font-weight="800" letter-spacing="-3" fill="#FFFFFF">Cashew<tspan fill="#FED8A7">Care</tspan></text>
+    <text x="82" y="296" font-size="22" font-weight="500" fill="#FFFFFF" opacity="0.8">Visão computacional a serviço da cajucultura do Nordeste</text>
+
+    <line x1="80" y1="380" x2="700" y2="380" stroke="#FED8A7" stroke-width="1" opacity="0.3"/>
+
+    <g font-size="11" font-weight="700" letter-spacing="1.8" fill="#FED8A7" opacity="0.7">
+      <text x="80" y="416">ESTÁGIO</text>
+      <text x="270" y="416">DOR VALIDADA</text>
+      <text x="500" y="416">RECONHECIMENTO</text>
+    </g>
+    <g font-size="26" font-weight="800" fill="#FFFFFF">
+      <text x="80" y="452">TRL 5/6</text>
+      <text x="270" y="452">92,5%</text>
+      <text x="500" y="452">3º lugar</text>
+    </g>
+    <g font-size="12" font-weight="500" fill="#FFFFFF" opacity="0.6">
+      <text x="80" y="476">protótipo validado em campo</text>
+      <text x="270" y="476">produtores relatam perdas</text>
+      <text x="500" y="476">HDC LATAM 2025 · Huawei</text>
+    </g>
+
+    <g font-size="12" font-weight="700" fill="#FED8A7" opacity="0.85">
+      <text x="80" y="560">IFCE · FORTALEZA · CEARÁ · BRASIL</text>
+    </g>
+  </g>
+</svg>
